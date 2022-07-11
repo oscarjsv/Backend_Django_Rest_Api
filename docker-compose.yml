@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  djangorestframenworkprueba:
+    image: djangorestframenworkprueba
+    ports:
+      - 8000:8000
