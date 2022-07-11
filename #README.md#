@@ -52,7 +52,7 @@ docker-compose up --build  --remove-orphans
 #### GET jugadores
 
 ```http
-  GET http://0.0.0.0:8000/api/player-view
+  GET http://127.0.0.1/api/player-view
 
 ```
 
@@ -63,7 +63,7 @@ docker-compose up --build  --remove-orphans
 #### POST Jugador
 
 ```http
-  POST http://0.0.0.0:8000/api/player-view
+  POST http://127.0.0.1/api/player-view
 ```
 
 | Parameter | Type     | Description                       |
@@ -74,7 +74,7 @@ docker-compose up --build  --remove-orphans
 #### GET Equipos
 
 ```http
-  GET http://0.0.0.0:8000/api/team-view
+  GET http://127.0.0.1/api/team-view
 ```
 
 | Parameter | Type     | Description                       |
@@ -84,7 +84,7 @@ docker-compose up --build  --remove-orphans
 #### POST Equipo
 
 ```http
-  POST http://0.0.0.0:8000/api/team-view
+  POST /api/team-view
 ```
 
 | Parameter | Type     | Description                       |
@@ -94,7 +94,7 @@ docker-compose up --build  --remove-orphans
 #### POST Tablero
 
 ```http
-  POST http://0.0.0.0:8000/api/tablero-view
+  POST http://127.0.0.1/api/tablero-view
 ```
 
 | Parameter | Type     | Description                       |
@@ -104,7 +104,7 @@ docker-compose up --build  --remove-orphans
 #### GET Position
 
 ```http
-  GET http://0.0.0.0:8000/api/position-view
+  GET http://127.0.0.1/api/position-view
 ```
 
 | Parameter | Type     | Description                       |
